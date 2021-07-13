@@ -28,7 +28,7 @@ const botSchema = Joi.object({
   exitOnSocketIssues: Joi.bool().strict().default(true),
   exitOnDatabaseDisconnect: Joi.bool().strict().default(false),
   exitOnExcessRateLimits: Joi.bool().strict().default(true),
-  userAgent: Joi.string().strict().default('Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0'),
+  userAgent: Joi.string().strict().default('MonitoRSS (+https://github.com/synzen/MonitoRSS)'),
   feedRequestTimeoutMs: Joi.number().strict().default(15000)
 })
 
